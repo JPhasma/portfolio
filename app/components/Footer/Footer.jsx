@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Footer() {
-  return <div>&copy; 2023</div>;
+  return <footer>&copy; 2023</footer>;
 }
 
 export default Footer;

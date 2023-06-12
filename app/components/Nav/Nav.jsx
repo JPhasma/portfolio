@@ -1,10 +1,11 @@
-import React from 'react';
+import Link from 'next/link';
 
 function Nav() {
   return (
-    <div>
-      <h3>Nav</h3>
-    </div>
+    <nav>
+      <h3>Portfolio</h3>
+      <Link href='/'>Home</Link> | <Link href='/coding/anagrams'>Anagrams</Link>
+    </nav>
   );
 }
 
