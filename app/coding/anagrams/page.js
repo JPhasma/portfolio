@@ -83,11 +83,11 @@ function Anagrams() {
       <pre>
         <strong>Examples:</strong>
         <br />
-        anagrams('rail safety', 'fairy tales') === true
+        anagrams(rail safety, fairy tales) === true
         <br />
-        anagrams('RAIL! SAFETY!', 'fairy tales') === true
+        anagrams(RAIL! SAFETY!, fairy tales) === true
         <br />
-        anagrams('Hi there', 'Bye there') === false
+        anagrams(Hi there, Bye there) === false
       </pre>
     </div>
   );
